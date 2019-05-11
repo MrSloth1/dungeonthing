@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonSkr", "DungeonSkr\DungeonSkr.csproj", "{C8651F7D-3A3A-443F-B186-BEE7E0F1E01E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableLELELE", "EnumerableLELELE\EnumerableLELELE.csproj", "{05A3E4AA-58E0-446B-954C-AB8DAD5EAE7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C8651F7D-3A3A-443F-B186-BEE7E0F1E01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8651F7D-3A3A-443F-B186-BEE7E0F1E01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8651F7D-3A3A-443F-B186-BEE7E0F1E01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A3E4AA-58E0-446B-954C-AB8DAD5EAE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A3E4AA-58E0-446B-954C-AB8DAD5EAE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A3E4AA-58E0-446B-954C-AB8DAD5EAE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A3E4AA-58E0-446B-954C-AB8DAD5EAE7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

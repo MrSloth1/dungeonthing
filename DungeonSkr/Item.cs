@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,28 +11,48 @@ namespace DungeonSkr
     {
        
     }
-    struct WeaponClass
+    public enum WeaponClass
     {
-        string Name;
-        string Type;
-        string Description;
-        string leonstinktheftig
+        Axe, Sword, Dagger,
     }
-    abstract class Consumables : Item
+    public enum Food
     {
+        Apple, Raw_Meat, Mushroom, Leaf, Berry, Grape,   
+    }
+    public enum effect
+    {
+       Runspeed_Boost, Healthregeneration, AttackDmgUp, AttackSpeedUp, 
+    }
+    public override class Consumable : Item
+    {
+        public effect ConsumableEffect;
+        public Consumable()
+        {
+
+        }
 
     }
-    abstract class Weapons : Item
+    public override class Weapon : Item
     {
-        struct WeaponClass { };
-    }
-    abstract class Augment : Item
-    {
+        public WeaponClass WeapClass;
+
+        public Weapon()
+        {
+
+        }
 
     }
-    abstract class Wearables : Item
+    public override class Augment : Item
     {
+        //Leon ich hab kein Plan wie du das hier meinst
+    }
+    public override class Wearable : Item
+    {
+        public Color ClothingColor;
+        public Wearable()
+        {
 
+        }
     }
     
 

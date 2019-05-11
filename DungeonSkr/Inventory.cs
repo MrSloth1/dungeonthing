@@ -8,10 +8,10 @@ namespace DungeonSkr
 {
     class Inventory
     {
-        List<Weapons> PlayerWeapons;
-        List<Consumables> PlayerConsumables;
+        List<Weapon> PlayerWeapons;
+        List<Consumable> PlayerConsumables;
         List<Augment> PlayersAugments;
-        List<Wearables> PlayersWearables;
+        List<Wearable> PlayersWearables;
 
 
 

@@ -1,0 +1,5 @@
+E:\C#\dungeonthing\EnumerableLELELE\bin\Debug\EnumerableLELELE.exe.config
+E:\C#\dungeonthing\EnumerableLELELE\bin\Debug\EnumerableLELELE.exe
+E:\C#\dungeonthing\EnumerableLELELE\bin\Debug\EnumerableLELELE.pdb
+E:\C#\dungeonthing\EnumerableLELELE\obj\Debug\EnumerableLELELE.exe
+E:\C#\dungeonthing\EnumerableLELELE\obj\Debug\EnumerableLELELE.pdb
