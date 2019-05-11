@@ -15,7 +15,7 @@ namespace DungeonSkr
         string Name;
         string Type;
         string Description;
-
+        string leonstinktheftig
     }
     abstract class Consumables : Item
     {
@@ -34,7 +34,5 @@ namespace DungeonSkr
 
     }
     
-    //https://docs.microsoft.com/de-de/dotnet/api/system.linq.enumerable?view=netframework-4.8
-    //https://www.tutorialspoint.com/csharp/csharp_enums.htm
-    //https://www.tutorialspoint.com/csharp/csharp_struct.htm
+
 }
