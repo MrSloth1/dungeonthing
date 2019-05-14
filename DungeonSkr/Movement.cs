@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonSkr.World
+namespace DungeonSkr
 {
     
     class Movement
     {
         
+
+        //maybe have renderCell here
     }
 }

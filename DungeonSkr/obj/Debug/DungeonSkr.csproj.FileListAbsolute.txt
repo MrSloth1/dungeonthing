@@ -9,3 +9,13 @@ H:\zescharf\DungeonSkr\DungeonSkr\obj\Debug\DungeonSkr.csproj.GenerateResource.c
 H:\zescharf\DungeonSkr\DungeonSkr\obj\Debug\DungeonSkr.csproj.CoreCompileInputs.cache
 H:\zescharf\DungeonSkr\DungeonSkr\obj\Debug\DungeonSkr.exe
 H:\zescharf\DungeonSkr\DungeonSkr\obj\Debug\DungeonSkr.pdb
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\bin\Debug\DungeonSkr.exe.config
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\bin\Debug\DungeonSkr.exe
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\bin\Debug\DungeonSkr.pdb
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.csprojAssemblyReference.cache
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.Form1.resources
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.Properties.Resources.resources
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.csproj.GenerateResource.cache
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.csproj.CoreCompileInputs.cache
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.exe
+C:\Users\leonp\Documents\GitHub\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.pdb

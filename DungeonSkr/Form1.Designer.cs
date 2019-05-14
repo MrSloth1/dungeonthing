@@ -37,6 +37,7 @@
             this.InvButt = new System.Windows.Forms.Button();
             this.SettButt = new System.Windows.Forms.Button();
             this.TextBoxBitchFuerAlles = new System.Windows.Forms.TextBox();
+            this.descriptionBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,6 +68,7 @@
             this.RightButt.TabIndex = 2;
             this.RightButt.Text = "→";
             this.RightButt.UseVisualStyleBackColor = true;
+            this.RightButt.Click += new System.EventHandler(this.RightButt_Click);
             // 
             // LeftButt
             // 
@@ -76,6 +78,7 @@
             this.LeftButt.TabIndex = 3;
             this.LeftButt.Text = "←";
             this.LeftButt.UseVisualStyleBackColor = true;
+            this.LeftButt.Click += new System.EventHandler(this.LeftButt_Click);
             // 
             // DownButt
             // 
@@ -85,6 +88,7 @@
             this.DownButt.TabIndex = 4;
             this.DownButt.Text = "↓";
             this.DownButt.UseVisualStyleBackColor = true;
+            this.DownButt.Click += new System.EventHandler(this.DownButt_Click);
             // 
             // label1
             // 
@@ -120,11 +124,22 @@
             this.TextBoxBitchFuerAlles.Size = new System.Drawing.Size(100, 20);
             this.TextBoxBitchFuerAlles.TabIndex = 8;
             // 
+            // descriptionBox
+            // 
+            this.descriptionBox.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.descriptionBox.ForeColor = System.Drawing.SystemColors.Info;
+            this.descriptionBox.Location = new System.Drawing.Point(125, 420);
+            this.descriptionBox.Multiline = true;
+            this.descriptionBox.Name = "descriptionBox";
+            this.descriptionBox.Size = new System.Drawing.Size(789, 71);
+            this.descriptionBox.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1088, 602);
+            this.Controls.Add(this.descriptionBox);
             this.Controls.Add(this.TextBoxBitchFuerAlles);
             this.Controls.Add(this.SettButt);
             this.Controls.Add(this.InvButt);
@@ -155,6 +170,7 @@
         private System.Windows.Forms.Button InvButt;
         private System.Windows.Forms.Button SettButt;
         private System.Windows.Forms.TextBox TextBoxBitchFuerAlles;
+        public System.Windows.Forms.TextBox descriptionBox;
     }
 }
 
