@@ -18,3 +18,6 @@ E:\C#\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.Properties.Resources.resource
 E:\C#\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.csproj.GenerateResource.Cache
 E:\C#\dungeonthing\DungeonSkr\bin\Debug\DungeonSkr.exe
 E:\C#\dungeonthing\DungeonSkr\bin\Debug\DungeonSkr.pdb
+X:\Schulsachen\INF\C#\dungeonthing\DungeonSkr\bin\Debug\DungeonSkr.exe.config
+X:\Schulsachen\INF\C#\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.exe
+X:\Schulsachen\INF\C#\dungeonthing\DungeonSkr\obj\Debug\DungeonSkr.pdb
