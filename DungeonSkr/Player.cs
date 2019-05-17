@@ -59,9 +59,16 @@ namespace DungeonSkr
 
         public void renderCell(int x, int y, TextBox tbox)
         {
-
-
             tbox.Text = Map.map[x, y].description;
+        }
+
+        public void scanEnemies()
+        {
+           if (!Map.map[0, 0].Equals(hostileCell()))
+           {
+
+           }
+                
         }
     }
 }

@@ -19,6 +19,7 @@ namespace DungeonSkr
             Map.loadMap();
             p = new Player(descriptionBox);
             p.renderCell(0, 0,descriptionBox);
+            p.scanEnemies();
         }
 
 
