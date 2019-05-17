@@ -64,7 +64,7 @@ namespace DungeonSkr
 
         public void scanEnemies()
         {
-           if (!Map.map[0, 0].Equals(hostileCell()))
+           if (Map.map[0, 0] is hostileCell)
            {
 
            }
