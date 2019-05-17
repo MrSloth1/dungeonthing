@@ -10,20 +10,13 @@ namespace DungeonSkr
     {
        
     }
-    struct WeaponClass
-    {
-        string Name;
-        string Type;
-        string Description;
-
-    }
     abstract class Consumables : Item
     {
 
     }
     abstract class Weapons : Item
     {
-        struct WeaponClass { };
+        
     }
     abstract class Augment : Item
     {
