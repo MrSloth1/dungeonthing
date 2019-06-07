@@ -6,23 +6,39 @@ using System.Threading.Tasks;
 
 namespace DungeonSkr
 {
-    abstract class NPC
+    public abstract class NPC
     {
-        string name;
+        public string name;
 
     }
 
-    abstract class Enemy : NPC
+    public class Combatant : NPC
     {
-        int health;
-        int level;
+        public int health;
+        public int level;
+        public int dmg;
+        public int defense;
+        public int evasion;
+        public int precision;
         Weapons weapon;
         Wearables armor;
-
-
-        //TODO: stats
-        
     }
+    public class Enemy : Combatant
+    {
+        
+
+
+        public Enemy(string name, int health,int level)
+        {
+            this.name = name;
+            this.health = health;
+            this.level = level;
+
+        }
+    }
+
+
+
 
 
 }

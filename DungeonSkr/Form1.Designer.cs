@@ -38,6 +38,12 @@
             this.SettButt = new System.Windows.Forms.Button();
             this.TextBoxBitchFuerAlles = new System.Windows.Forms.TextBox();
             this.descriptionBox = new System.Windows.Forms.TextBox();
+            this.ContButt = new System.Windows.Forms.Button();
+            this.enemyNameBox = new System.Windows.Forms.TextBox();
+            this.playerHealthbox = new System.Windows.Forms.TextBox();
+            this.EnemyHealthBox = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.attButt = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,11 +140,63 @@
             this.descriptionBox.Size = new System.Drawing.Size(789, 71);
             this.descriptionBox.TabIndex = 9;
             // 
+            // ContButt
+            // 
+            this.ContButt.Location = new System.Drawing.Point(829, 459);
+            this.ContButt.Name = "ContButt";
+            this.ContButt.Size = new System.Drawing.Size(75, 23);
+            this.ContButt.TabIndex = 10;
+            this.ContButt.Text = "Continue";
+            this.ContButt.UseVisualStyleBackColor = true;
+            // 
+            // enemyNameBox
+            // 
+            this.enemyNameBox.Location = new System.Drawing.Point(814, 67);
+            this.enemyNameBox.Name = "enemyNameBox";
+            this.enemyNameBox.Size = new System.Drawing.Size(100, 20);
+            this.enemyNameBox.TabIndex = 11;
+            // 
+            // playerHealthbox
+            // 
+            this.playerHealthbox.Location = new System.Drawing.Point(125, 67);
+            this.playerHealthbox.Name = "playerHealthbox";
+            this.playerHealthbox.Size = new System.Drawing.Size(100, 20);
+            this.playerHealthbox.TabIndex = 12;
+            // 
+            // EnemyHealthBox
+            // 
+            this.EnemyHealthBox.Location = new System.Drawing.Point(814, 94);
+            this.EnemyHealthBox.Name = "EnemyHealthBox";
+            this.EnemyHealthBox.Size = new System.Drawing.Size(100, 20);
+            this.EnemyHealthBox.TabIndex = 13;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(814, 121);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 14;
+            // 
+            // attButt
+            // 
+            this.attButt.Location = new System.Drawing.Point(125, 523);
+            this.attButt.Name = "attButt";
+            this.attButt.Size = new System.Drawing.Size(75, 23);
+            this.attButt.TabIndex = 15;
+            this.attButt.Text = "Attack";
+            this.attButt.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1088, 602);
+            this.Controls.Add(this.attButt);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.EnemyHealthBox);
+            this.Controls.Add(this.playerHealthbox);
+            this.Controls.Add(this.enemyNameBox);
+            this.Controls.Add(this.ContButt);
             this.Controls.Add(this.descriptionBox);
             this.Controls.Add(this.TextBoxBitchFuerAlles);
             this.Controls.Add(this.SettButt);
@@ -171,6 +229,12 @@
         private System.Windows.Forms.Button SettButt;
         private System.Windows.Forms.TextBox TextBoxBitchFuerAlles;
         public System.Windows.Forms.TextBox descriptionBox;
+        private System.Windows.Forms.Button ContButt;
+        private System.Windows.Forms.TextBox enemyNameBox;
+        private System.Windows.Forms.TextBox playerHealthbox;
+        private System.Windows.Forms.TextBox EnemyHealthBox;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button attButt;
     }
 }
 

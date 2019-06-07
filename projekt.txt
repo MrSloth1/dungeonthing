@@ -1,27 +1,42 @@
 //TODO:
 
+
 ---Player---
 
+
 Inventar
-	Geld
+	
+Geld
 Movementability
-	Playerposition
+	
+Playerposition
 Statistiken ( Fortschritt)
-Dinge wie health, waffen
+
+Dinge wie health,
+ waffen
 abilities
 name
 
+
+
 ---Engine---
+
 
 Karte
 Items
 NPCS (nichtKI)
+
 savestates
 Quests (fortschritt)
+
 storyline (milde)
+
 Speedrun mode (timer)
+
 backgroundmusic 
+
 easter eggs
+
 jokes
 "features"
 

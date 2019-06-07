@@ -34,14 +34,16 @@ namespace DungeonSkr
             map[0, 1].right = true;
             
             
+            
 
             map[1, 1] = new Cell();
             map[1, 1].name = "zelle";
             map[1, 1].description = "zelle am gang";
             map[1, 1].left = true;
+            map[1, 1].up = true;
 
             //map[1, 2] = new Cell("gay", "erster gegner");
-            map[1, 2] = new hostileCell("gay", "erster gegner",1);
+            map[1, 2] = new hostileCell("gay", "erster gegner",1, down: true, spawnChance: 100);
             
         }
 
@@ -76,6 +78,7 @@ namespace DungeonSkr
     class hostileCell : Cell
     {
         public int level;
+        //in percent so int ranging from 0 to 100
         public int spawnChance;
         public hostileCell()
         {
