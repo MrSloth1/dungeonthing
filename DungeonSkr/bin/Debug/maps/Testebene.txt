@@ -1,0 +1,19 @@
+2
+2
+Spawn
+Das ist der Spawn
+ur
+n0001
+x
+rechts vom Spawn
+Das ist der spawn aber weiter rechts
+l
+x
+gang
+gang vom spawn weg
+dr
+x
+zelle
+zelle am gang
+l
+x
