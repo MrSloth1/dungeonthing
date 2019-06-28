@@ -4,17 +4,58 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
-
+using System.IO;
 namespace DungeonSkr
 {
     
     class Map
     {
-        //make it load 
-        public static Cell[,] map = new Cell[2, 3];
 
+       
+        //make it load 
+        static FileStream loadmap = new FileStream(Directory.GetCurrentDirectory() + "/maps/Testebene.txt", FileMode.Open, FileAccess.Read);
+        static StreamReader mapreader = new StreamReader(loadmap);
+        static int x = Convert.ToInt32( mapreader.ReadLine());
+        static int y = Convert.ToInt32(mapreader.ReadLine());
+        public static Cell[,] map = new Cell[x, y];
+        
         public static void loadMap()
         {
+           
+            
+            for (int i = 0; i < y; i++)
+            {
+                for (int j = 0; j < x; j++)
+                {
+                    
+                    map[j, i] = new Cell();
+                    map[j, i].name = mapreader.ReadLine();
+                    map[j, i].description = mapreader.ReadLine();
+                    while (mapreader.Peek()!='x')
+                    {
+                        switch (mapreader.Read())
+                        {
+                            case 'u': map[j, i].up = true;
+                                break;
+                            case 'r': map[j, i].right = true;
+                                break;
+                            case 'l': map[j, i].left = true;
+                                break;
+                            case 'd': map[j, i].down = true;
+                                break;
+                            case 'n': map[j, i].npcid.Add(mapreader.ReadLine());
+                                break;
+                            case 'i': map[j, i].itemid.Add(mapreader.ReadLine());
+                                break;
+                             
+                        }
+                    }
+                    
+
+                }
+            }
+            
+            /*
             map[0, 0] = new Cell();
             map[0, 0].name = "spawn";
             map[0, 0].description = "Das ist der spawn";
@@ -41,8 +82,8 @@ namespace DungeonSkr
             map[1, 1].left = true;
 
             //map[1, 2] = new Cell("gay", "erster gegner");
-            map[1, 2] = new hostileCell("gay", "erster gegner",1);
-            
+            //map[1, 2] = new hostileCell("gay", "erster gegner",1);
+            */
         }
 
     }
@@ -51,7 +92,8 @@ namespace DungeonSkr
     {
         public string name;
         public string description;
-        public NPC npc = null;
+        public List<string> npcid = new List<string>(0);
+        public List<string> itemid = new List<string>(0);
         //possible ways
         public bool left = false;
         public bool right = false;
@@ -60,7 +102,7 @@ namespace DungeonSkr
 
         public Cell()
         {
-
+            
         }
         public Cell(string name, string description,bool up = false,bool down = false, bool left = false, bool right = false)
         {

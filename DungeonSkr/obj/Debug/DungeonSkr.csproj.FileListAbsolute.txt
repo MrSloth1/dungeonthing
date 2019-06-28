@@ -1,9 +1,9 @@
-X:\zescharf\dungeonthing-Karte\DungeonSkr\bin\Debug\DungeonSkr.exe.config
-X:\zescharf\dungeonthing-Karte\DungeonSkr\bin\Debug\DungeonSkr.exe
-X:\zescharf\dungeonthing-Karte\DungeonSkr\bin\Debug\DungeonSkr.pdb
-X:\zescharf\dungeonthing-Karte\DungeonSkr\obj\Debug\DungeonSkr.csprojResolveAssemblyReference.cache
-X:\zescharf\dungeonthing-Karte\DungeonSkr\obj\Debug\DungeonSkr.Form1.resources
-X:\zescharf\dungeonthing-Karte\DungeonSkr\obj\Debug\DungeonSkr.Properties.Resources.resources
-X:\zescharf\dungeonthing-Karte\DungeonSkr\obj\Debug\DungeonSkr.csproj.GenerateResource.Cache
-X:\zescharf\dungeonthing-Karte\DungeonSkr\obj\Debug\DungeonSkr.exe
-X:\zescharf\dungeonthing-Karte\DungeonSkr\obj\Debug\DungeonSkr.pdb
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\bin\Debug\DungeonSkr.exe.config
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\obj\Debug\DungeonSkr.csprojResolveAssemblyReference.cache
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\obj\Debug\DungeonSkr.Form1.resources
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\obj\Debug\DungeonSkr.Properties.Resources.resources
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\obj\Debug\DungeonSkr.csproj.GenerateResource.Cache
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\bin\Debug\DungeonSkr.exe
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\bin\Debug\DungeonSkr.pdb
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\obj\Debug\DungeonSkr.exe
+X:\Leon Programmier Projekt\dungeonthing-kartenauslagerung\dungeonthing-kartenauslagerung\DungeonSkr\obj\Debug\DungeonSkr.pdb

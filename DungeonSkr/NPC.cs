@@ -8,7 +8,8 @@ namespace DungeonSkr
 {
     abstract class NPC
     {
-        string name;
+        public string name;
+        public string id;
 
     }
 
